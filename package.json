@@ -44,7 +44,8 @@
   },
   "scripts": {
     "lint": "eslint ./src",
-    "start": "nodemon ./src/server.js"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "",
